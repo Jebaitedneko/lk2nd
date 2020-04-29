@@ -23,4 +23,11 @@
 		// FIXME: There are multiple possible panels, might need to add more
 		lk2nd,match-cmdline = "* mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_hx8394a_hd_tdt_video:1:none";
 	};
+	
+	a37f {
+		model = "oppo A37f;
+		compatible = "oppo,A37f", "qcom,msm8916", "qcom,mtp", "lk2nd,device";
+		lk2nd,match-cmdline = "* mdss_mdp.panel=1:dsi:0:qcom,mdss_dsi_oppo15399tm_nt35521s_720p_video:1:qcom,mdss_dsi_oppo15399boe_ili9881c_720p_video:2:qcom,mdss_dsi_oppo15399truly_nt35521s_720p_video:3:none";
+	};
+	
 };
